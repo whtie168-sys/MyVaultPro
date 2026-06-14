@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF0E04BEE9CEF5BAC4A100F8 /* Pods_FocusToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5FB4F42FA4AE9C38F1AE7B /* Pods_FocusToolkit.framework */; };
+		53A43AA8531981B064776A20 /* Pods_FocusToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D1E5CBA7457DD21B4EDB09 /* Pods_FocusToolkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		38B92C112FDD75A4003B1A90 /* FocusToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DF92A9279B911557FBAFF8 /* Pods-FocusToolkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusToolkit.release.xcconfig"; path = "Target Support Files/Pods-FocusToolkit/Pods-FocusToolkit.release.xcconfig"; sourceTree = "<group>"; };
-		EF5FB4F42FA4AE9C38F1AE7B /* Pods_FocusToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F68D4FE54D87730EC63479C9 /* Pods-FocusToolkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusToolkit.debug.xcconfig"; path = "Target Support Files/Pods-FocusToolkit/Pods-FocusToolkit.debug.xcconfig"; sourceTree = "<group>"; };
+		383C0C282FDE749200CF0EEC /* FocusToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D1E5CBA7457DD21B4EDB09 /* Pods_FocusToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7E42569F015C6F4701F4A5 /* Pods-FocusToolkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusToolkit.release.xcconfig"; path = "Target Support Files/Pods-FocusToolkit/Pods-FocusToolkit.release.xcconfig"; sourceTree = "<group>"; };
+		FB486F7D3E9E26DF1E025F6A /* Pods-FocusToolkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusToolkit.debug.xcconfig"; path = "Target Support Files/Pods-FocusToolkit/Pods-FocusToolkit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		38B92C232FDD75A6003B1A90 /* Exceptions for "FocusToolkit" folder in "FocusToolkit" target */ = {
+		383C0C3A2FDE749300CF0EEC /* Exceptions for "FocusToolkit" folder in "FocusToolkit" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 38B92C102FDD75A4003B1A90 /* FocusToolkit */;
+			target = 383C0C272FDE749200CF0EEC /* FocusToolkit */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		38B92C132FDD75A4003B1A90 /* FocusToolkit */ = {
+		383C0C2A2FDE749200CF0EEC /* FocusToolkit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				38B92C232FDD75A6003B1A90 /* Exceptions for "FocusToolkit" folder in "FocusToolkit" target */,
+				383C0C3A2FDE749300CF0EEC /* Exceptions for "FocusToolkit" folder in "FocusToolkit" target */,
 			);
 			path = FocusToolkit;
 			sourceTree = "<group>";
@@ -39,48 +39,49 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38B92C0E2FDD75A4003B1A90 /* Frameworks */ = {
+		383C0C252FDE749200CF0EEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0E04BEE9CEF5BAC4A100F8 /* Pods_FocusToolkit.framework in Frameworks */,
+				53A43AA8531981B064776A20 /* Pods_FocusToolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38B92C082FDD75A4003B1A90 = {
+		383C0C1F2FDE749200CF0EEC = {
 			isa = PBXGroup;
 			children = (
-				38B92C132FDD75A4003B1A90 /* FocusToolkit */,
-				38B92C122FDD75A4003B1A90 /* Products */,
-				4FE373671C9084BF9CFDD2C6 /* Pods */,
-				894D1915FFF88EABB755307D /* Frameworks */,
+				383C0C2A2FDE749200CF0EEC /* FocusToolkit */,
+				383C0C292FDE749200CF0EEC /* Products */,
+				7F82A5AC52B092CBC394F0E6 /* Pods */,
+				C66A86EC8BE9EF784D7EA6D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		38B92C122FDD75A4003B1A90 /* Products */ = {
+		383C0C292FDE749200CF0EEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38B92C112FDD75A4003B1A90 /* FocusToolkit.app */,
+				383C0C282FDE749200CF0EEC /* FocusToolkit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4FE373671C9084BF9CFDD2C6 /* Pods */ = {
+		7F82A5AC52B092CBC394F0E6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F68D4FE54D87730EC63479C9 /* Pods-FocusToolkit.debug.xcconfig */,
-				A1DF92A9279B911557FBAFF8 /* Pods-FocusToolkit.release.xcconfig */,
+				FB486F7D3E9E26DF1E025F6A /* Pods-FocusToolkit.debug.xcconfig */,
+				DD7E42569F015C6F4701F4A5 /* Pods-FocusToolkit.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		894D1915FFF88EABB755307D /* Frameworks */ = {
+		C66A86EC8BE9EF784D7EA6D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF5FB4F42FA4AE9C38F1AE7B /* Pods_FocusToolkit.framework */,
+				B3D1E5CBA7457DD21B4EDB09 /* Pods_FocusToolkit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,63 +89,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		38B92C102FDD75A4003B1A90 /* FocusToolkit */ = {
+		383C0C272FDE749200CF0EEC /* FocusToolkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38B92C242FDD75A6003B1A90 /* Build configuration list for PBXNativeTarget "FocusToolkit" */;
+			buildConfigurationList = 383C0C3B2FDE749300CF0EEC /* Build configuration list for PBXNativeTarget "FocusToolkit" */;
 			buildPhases = (
-				6485B1B39BE2EA6119522834 /* [CP] Check Pods Manifest.lock */,
-				38B92C0D2FDD75A4003B1A90 /* Sources */,
-				38B92C0E2FDD75A4003B1A90 /* Frameworks */,
-				38B92C0F2FDD75A4003B1A90 /* Resources */,
+				990DA809D6BD09EBB1D44E70 /* [CP] Check Pods Manifest.lock */,
+				383C0C242FDE749200CF0EEC /* Sources */,
+				383C0C252FDE749200CF0EEC /* Frameworks */,
+				383C0C262FDE749200CF0EEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				38B92C132FDD75A4003B1A90 /* FocusToolkit */,
+				383C0C2A2FDE749200CF0EEC /* FocusToolkit */,
 			);
 			name = FocusToolkit;
 			productName = FocusToolkit;
-			productReference = 38B92C112FDD75A4003B1A90 /* FocusToolkit.app */;
+			productReference = 383C0C282FDE749200CF0EEC /* FocusToolkit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		38B92C092FDD75A4003B1A90 /* Project object */ = {
+		383C0C202FDE749200CF0EEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					38B92C102FDD75A4003B1A90 = {
+					383C0C272FDE749200CF0EEC = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = 38B92C0C2FDD75A4003B1A90 /* Build configuration list for PBXProject "FocusToolkit" */;
+			buildConfigurationList = 383C0C232FDE749200CF0EEC /* Build configuration list for PBXProject "FocusToolkit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 38B92C082FDD75A4003B1A90;
+			mainGroup = 383C0C1F2FDE749200CF0EEC;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 38B92C122FDD75A4003B1A90 /* Products */;
+			productRefGroup = 383C0C292FDE749200CF0EEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38B92C102FDD75A4003B1A90 /* FocusToolkit */,
+				383C0C272FDE749200CF0EEC /* FocusToolkit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38B92C0F2FDD75A4003B1A90 /* Resources */ = {
+		383C0C262FDE749200CF0EEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,7 +155,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6485B1B39BE2EA6119522834 /* [CP] Check Pods Manifest.lock */ = {
+		990DA809D6BD09EBB1D44E70 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,7 +180,7 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38B92C0D2FDD75A4003B1A90 /* Sources */ = {
+		383C0C242FDE749200CF0EEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,9 +190,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		38B92C252FDD75A6003B1A90 /* Debug */ = {
+		383C0C3C2FDE749300CF0EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F68D4FE54D87730EC63479C9 /* Pods-FocusToolkit.debug.xcconfig */;
+			baseConfigurationReference = FB486F7D3E9E26DF1E025F6A /* Pods-FocusToolkit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -202,9 +203,10 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Focus Toolkit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -226,9 +228,9 @@
 			};
 			name = Debug;
 		};
-		38B92C262FDD75A6003B1A90 /* Release */ = {
+		383C0C3D2FDE749300CF0EEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1DF92A9279B911557FBAFF8 /* Pods-FocusToolkit.release.xcconfig */;
+			baseConfigurationReference = DD7E42569F015C6F4701F4A5 /* Pods-FocusToolkit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -239,9 +241,10 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Focus Toolkit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -263,7 +266,7 @@
 			};
 			name = Release;
 		};
-		38B92C272FDD75A6003B1A90 /* Debug */ = {
+		383C0C3E2FDE749300CF0EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -326,7 +329,7 @@
 			};
 			name = Debug;
 		};
-		38B92C282FDD75A6003B1A90 /* Release */ = {
+		383C0C3F2FDE749300CF0EEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -385,25 +388,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38B92C0C2FDD75A4003B1A90 /* Build configuration list for PBXProject "FocusToolkit" */ = {
+		383C0C232FDE749200CF0EEC /* Build configuration list for PBXProject "FocusToolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38B92C272FDD75A6003B1A90 /* Debug */,
-				38B92C282FDD75A6003B1A90 /* Release */,
+				383C0C3E2FDE749300CF0EEC /* Debug */,
+				383C0C3F2FDE749300CF0EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38B92C242FDD75A6003B1A90 /* Build configuration list for PBXNativeTarget "FocusToolkit" */ = {
+		383C0C3B2FDE749300CF0EEC /* Build configuration list for PBXNativeTarget "FocusToolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38B92C252FDD75A6003B1A90 /* Debug */,
-				38B92C262FDD75A6003B1A90 /* Release */,
+				383C0C3C2FDE749300CF0EEC /* Debug */,
+				383C0C3D2FDE749300CF0EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 38B92C092FDD75A4003B1A90 /* Project object */;
+	rootObject = 383C0C202FDE749200CF0EEC /* Project object */;
 }
