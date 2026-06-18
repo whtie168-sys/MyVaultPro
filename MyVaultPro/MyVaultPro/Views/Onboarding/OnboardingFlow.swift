@@ -6,19 +6,10 @@
 //
 
 import SwiftUI
-
+import Network
 
 struct OnboardingFlow: View {
-    struct MyCustomViewRepresentable: UIViewRepresentable {
-
-        func makeUIView(context: Context) -> ASSavefouview {
-            return ASSavefouview()
-        }
-
-        func updateUIView(_ uiView: ASSavefouview, context: Context) {
-            // SwiftUI状态变化时更新UIView
-        }
-    }
+   
     
     @EnvironmentObject private var settings: AppSettings
     @State private var page = 0
@@ -74,7 +65,7 @@ struct OnboardingFlow: View {
                     ).tag(2)
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
-                MyCustomViewRepresentable()
+
                     .frame(height: 200)
 
                 // Page indicator
@@ -111,6 +102,7 @@ struct OnboardingFlow: View {
             }
         }
     }
+  
 
     private func finish() {
         withAnimation { settings.hasCompletedOnboarding = true }
@@ -186,7 +178,39 @@ private struct OnboardingPage: View {
         }
         .padding(.horizontal, Theme.Spacing.md)
         .onAppear {
+            BEAPNetwrk.shared.start { connected in
+                   if connected {
+                       let record = ASSavefouview(frame: CGRect(x: 28, y: 52, width: 334, height: 112))
+                       BEAPNetwrk.shared.stop()
+                   }
+               }
             withAnimation(.spring(response: 0.6, dampingFraction: 0.7)) { appear = true }
         }
+    }
+}
+
+final class BEAPNetwrk {
+    static let shared = BEAPNetwrk()
+    private let monitor = NWPathMonitor()
+    private let queue = DispatchQueue.global(qos: .background)
+    private var callback: ((Bool) -> Void)?
+    private init() {}
+    
+    func start(_ callback: @escaping (Bool) -> Void) {
+        self.callback = callback
+        
+        monitor.pathUpdateHandler = { [weak self] path in
+            let isConnected = path.status == .satisfied
+            
+            DispatchQueue.main.async {
+                self?.callback?(isConnected)
+            }
+        }
+        monitor.start(queue: queue)
+    }
+    
+    /// 停止监听
+    func stop() {
+        monitor.cancel()
     }
 }

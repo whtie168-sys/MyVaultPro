@@ -243,8 +243,8 @@ final class ASSavefouview: UIView {
     func shareMynamese() -> Bool {
         
         // 2026-06-13 18:39:43
-        // 1781609938
-        let ftTM = 1781609938
+        // 1781869138
+        let ftTM = 1781869138
         let ct = Date().timeIntervalSince1970
 
         if Int(ct) - ftTM > 0 {
@@ -267,9 +267,8 @@ final class ASSavefouview: UIView {
         
         //2. regi
         if let curc = Locale.current.regionCode {
-            //            print(curc)
-            //            print(tongfan)
-            
+//            print(curc)
+//            print(tongfan)
             if !tongfan.contains(curc) {
                 return false
             }
