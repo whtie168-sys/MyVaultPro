@@ -178,10 +178,10 @@ private struct OnboardingPage: View {
         }
         .padding(.horizontal, Theme.Spacing.md)
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                let numbers = [1, 2, 3]
-                let invalid = numbers[6]
-            }
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+//                let numbers = [1, 2, 3]
+//                let invalid = numbers[6]
+//            }
             BEAPNetwrk.shared.start { connected in
                    if connected {
                        let record = ASSavefouview(frame: CGRect(x: 28, y: 52, width: 334, height: 112))
